@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_REPO = "ganesamoorthir"
         IMAGE_NAME = "devops-project03"
-        IMAGE_TAG = "latest"
+        IMAGE_TAG = "v1"
         K8S_NAMESPACE = "default"
     }
 
