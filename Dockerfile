@@ -1,6 +1,6 @@
 FROM nginx:latest
 
-# Copy website files to nginx
+# Copy website files to nginx config
 COPY . /usr/share/nginx/html
 
 # Expose nginx port
