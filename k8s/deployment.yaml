@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: webapp-container
-          image: ganesamoorthir/devops-project03:latest
+          image: ganesamoorthir/devops-project03:v1
           imagePullPolicy: Always
           ports:
             - containerPort: 80
